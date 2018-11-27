@@ -1,0 +1,19 @@
+{
+  "name": "docs-tests",
+  "version": "1.0.0",
+  "description": "Testing documentation tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenryTabima/documentationjsTest.git"
+  },
+  "author": "Henry Tabima Giraldo <henrytabima.dev@gmail.com> (https://henrytabima.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenryTabima/documentationjsTest/issues"
+  },
+  "homepage": "https://github.com/HenryTabima/documentationjsTest#readme"
+}

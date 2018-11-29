@@ -4,7 +4,8 @@
   "description": "Testing documentation tools",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:gen": "vuepress-jsdoc --source=./src --dist=./docs --title=API",
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/HenryTabima/documentationjsTest/issues"
   },
-  "homepage": "https://github.com/HenryTabima/documentationjsTest#readme"
+  "homepage": "https://github.com/HenryTabima/documentationjsTest#readme",
+  "devDependencies": {
+    "documentation": "^8.1.2"
+  }
 }
